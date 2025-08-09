@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-link {
+    color: rgba(0,0,0,0.87);
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: block;
+    transition: color 0.3s;
+}
+        
+.footer-link:hover {
+    color: var(--starbucks-green);
+}
+        
+.divider {
+    height: 1px;
+    background-color: rgba(0,0,0,0.1);
+    margin: 30px 0;
+}

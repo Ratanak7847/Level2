@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.bg-brown{
+    background-color: white;
+}
+.nav-item .nav-link{
+    font-size: 20px;
+    color: black;
+}
+  .form-control{
+    position: relative;
+    
+    
+}
+.icon{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+.btn-starbucks {
+  background-color: green;
+  color: white;
+  border-radius: 50px;
+  padding: 8px 24px;
+  font-weight: 600;
+}
+.btn-outline-starbucks {
+  border: 1px solid green;
+  background-color: #008248;
+  color: white;
+  border-radius: 50px;
+  padding: 8px 24px;
+  font-weight: 600;
+  
+}
+.giftcart{
+    margin-left: 73px;
+}
+.giftcart h3{
+    font-size: 30px;
+}
+.giftcart p{
+    font-size: 15px;
+}
+.gift-card-carousel {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px 50px;
+}
+.gift-card-img {
+    width: 190px;
+    height: 125px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+.gift-card-img:hover {
+    transform: scale(1.05);
+}
+.carousel-control-prev, .carousel-control-next {
+    width: 40px;
+    height: 40px;
+    background-color: #006241;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 0.8;
+}
+.carousel-control-prev:hover, .carousel-control-next:hover {
+    opacity: 1;
+}
+.carousel-control-prev {
+    left: 0;
+}
+.carousel-control-next {
+    right: 0;
+}
+.gift-card-im {
+    width: 170px;
+    height: 125px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+.gift-card-im:hover {
+    transform: scale(1.05);
+}
+.footer-link {
+    color: rgba(0,0,0,0.87);
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: block;
+    transition: color 0.3s;
+}
+        
+.footer-link:hover {
+    color: var(--starbucks-green);
+}
+        
+.divider {
+    height: 1px;
+    background-color: rgba(0,0,0,0.1);
+    margin: 30px 0;
+}
+
